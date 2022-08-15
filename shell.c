@@ -7,8 +7,9 @@
 #define MAX_SIZE 80
 #define MAX_ARGS 20
 
+/* function to create arglist from string input delimited be ' '.*/
 void args_list(char *args[],char *s){
-    char *token=strtok(s," ");
+    char *token=strtok(s," "); // tokenizing the string.
     int i=0;
     while(token!=NULL){
         args[i]=(char *)malloc((strlen(token)+1)*sizeof(char));    
@@ -19,8 +20,8 @@ void args_list(char *args[],char *s){
 }
 
 int main(){
-    char buff[MAX_SIZE];
-    char *args[MAX_ARGS];
+    char buff[MAX_SIZE]; // buffer to store the input string.
+    char *args[MAX_ARGS]; // argument list.
 
     while(1){
         printf("mish>");
