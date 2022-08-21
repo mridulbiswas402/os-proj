@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <pthread.h>
 #include <unistd.h>
-#include "buffer.h" 
-#include "buffer.c" //implementation of a queue.
+#include "queue.h" 
+#include "queue.c" //implementation of a queue.
 
 void *producer(void *params);
 void *consumer(void *params);

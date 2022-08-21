@@ -1,5 +1,5 @@
-#ifndef _BUFFER_H_
-#define _BUFFER_H_
+#ifndef _QUEUE_H_
+#define _QUEUE_H_
 
 typedef int item;
 #define BUFFER_SIZE 100

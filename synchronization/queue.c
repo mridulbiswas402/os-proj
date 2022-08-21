@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include"buffer.h"
+#include"queue.h"
 
 void print_state(Queue *ptr)
 {
